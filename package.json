@@ -1,0 +1,19 @@
+{
+
+  "name": "rabbitmq-hola-mundo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "send.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "consumidor": "node ./receive.js",
+    "productor": "node ./send.js",
+    "productor2": "node ./sendIncremento.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}
